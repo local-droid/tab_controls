@@ -20,7 +20,7 @@ class Service {
       Result(ResultType.TYPE_C, "Thrid Type C Result"),
     ];
 
-    Future.delayed(Duration(seconds: 1)); 
+    Future.delayed(Duration(seconds: 1));
 
     return Future.value({
       ResultType.TYPE_A: typeAResults,
